@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 document.getElementById('download-cv').onclick = function() {
-  window.open('./images/Menna-radi (1).pdf');
+  window.open('./images/Menna_Radi (CV).pdf');
 };
 
 document.getElementById('contact-info').onclick = function() {
@@ -33,6 +33,27 @@ document.getElementById('petgit').onclick = function() {
 };
 document.getElementById('petdimo').onclick = function() {
   location.href = 'https://menna-radi.github.io/pet-love/';
+};
+//Coffee project
+document.getElementById('coffeegit').onclick = function() {
+  location.href = 'https://drive.google.com/drive/folders/1YLMX_bsTcPoThb42ORKov9WIJy45cNHR?usp=sharing';
+};
+document.getElementById('coffeedimo').onclick = function() {
+  location.href = 'https://drive.google.com/drive/folders/1lb3mgqb4tdkwiLt6AbpVN9Skjh0IPwbn?usp=sharing';
+};
+//Ception project
+document.getElementById('ceptiongit').onclick = function() {
+  location.href = 'https://drive.google.com/drive/folders/1MhDvdo4RpWkdAOi1ch26VG5HPw18Dfl8?usp=sharing';
+};
+document.getElementById('ceptiondimo').onclick = function() {
+  location.href = 'https://drive.google.com/drive/folders/1l2e3hx6arrXJqEp8_NbDwq_8zYOZMicw?usp=sharing';
+};
+//3legant project
+document.getElementById('3legantgit').onclick = function() {
+  location.href = 'https://drive.google.com/file/d/1tKjM5s8Dbktt49EvtxLCRe9tWeklDl0r/view?usp=sharing';
+};
+document.getElementById('3legantdimo').onclick = function() {
+  location.href = 'https://drive.google.com/file/d/1wj2KDirpVDCx9GgrApg7fRWfSl_5C6tQ/view?usp=sharing';
 };
 
 document.getElementById('linkedin-profile').onclick = function() {
