@@ -40,11 +40,13 @@ nav {
   align-items: center;
   height: 100px;
 }
-
+nav .logo{
+  font-size: 30px;
+}
 .nav-links {
-  gap: 2rem;
+  gap: 45px;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 
 a {
@@ -271,12 +273,13 @@ section {
 
 #about {
   position: relative;
+  padding-top: 120px;
 }
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .about-details-container {
@@ -295,6 +298,7 @@ section {
 .about-details-container {
   display: flex;
   gap: 10px;
+  padding-top: 40px;
 }
 
 
@@ -314,7 +318,10 @@ section {
   text-align: center;
   right: -500px;
 }
-
+.text-container p{
+  padding-top: 0px;
+  text-align: left;
+}
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -344,32 +351,34 @@ section {
   justify-content: center;
   flex-direction: column;
 }
-
-.article-container {
-  
+.article-container h3{
+  font-size: large;
+}
+.article-container  {
+  gap: 15px;
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
   justify-content: space-around;
 }
 
 article {
-  display: flex;
-  width: 10rem;
+  display:flex;
+  width: 150px;
   justify-content: space-around;
-  gap: 0.5rem;
+
 }
 
 article .icon {
   cursor: default;
+
 }
 
 /* PROJECTS SECTION */
 
 #projects {
-  top: -200px;
+  padding-top: 140px;
   position: relative;
 }
 
@@ -387,6 +396,7 @@ article .icon {
 }
 
 .project-title {
+  font-size: 20px;
   margin: 20px 80px;
   color: black;
 }
@@ -399,7 +409,7 @@ article .icon {
 /* CONTACT */
 
 #contact {
-  
+  padding-top: 140px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -445,7 +455,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  margin: 0 1rem;
+  margin: 10 1rem;
 }
 
 footer p {
